@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    padding: 10px 0;
+
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+
+header ul li{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+
+.usersContainer{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.userCard{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.userCard img{
+    border-radius: 100%;
+}
